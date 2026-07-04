@@ -1,3 +1,4 @@
+// Name: Farhana, ID: 2312079 
 function showWelcomeMessage() {
 
   var msg = document.getElementById("welcomeMsg");
