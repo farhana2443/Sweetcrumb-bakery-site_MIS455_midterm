@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FDF6EC;
+  color: #3E2723;
+  line-height: 1.6;
+}
+ 
+img {
+  max-width: 100%;
+}
+ 
+h1, h2, h3 {
+  color: #6B4226;
+}
+ 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ 
+.center-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+ 
+/*For Top header I use */
+.header {
+  background-color: #ffffff;
+  padding: 15px 30px;
+  text-align: center;
+}
+ 
+.header .logo {
+  font-size: 1.8rem;
+  color: #6B4226;
+  font-weight: bold;
+}
+ 
+.header .tagline {
+  font-size: 0.9rem;
+  color: #7A6A5F;
+}
+ 
+/* This is theNavigation bar */
+.navbar {
+  background-color: #6B4226;
+}
+ 
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+ 
+.navbar ul li a {
+  display: block;
+  padding: 15px 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+ 
+.navbar ul li a:hover {
+  background-color: #E8A33D;
+  color: #3E2723;
+}
+ 
+/* This is the Footer */
+.footer {
+  background-color: #6B4226;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+ 
+.footer a {
+  color: #E8A33D;
+  margin: 0 5px;
+}
+ 
+.btn {
+  background-color: #E8A33D;
+  color: #3E2723;
+  border: none;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+ 
+.btn:hover {
+  background-color: #6B4226;
+  color: #ffffff;
+}
+ 
+.des {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 50px 40px;
+  flex-wrap: wrap;
+}
+ 
+.des-text {
+  flex: 1 1 400px;
+}
+ 
+.des-image {
+  flex: 1 1 350px;
+}
+ 
+.section {
+  padding: 40px;
+}
