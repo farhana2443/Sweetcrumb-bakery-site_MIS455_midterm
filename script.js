@@ -43,3 +43,24 @@ function submitForm() {
     document.getElementById("message").value = "";
   }
 }
+
+function submitForm() {
+
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+  var result = document.getElementById("formResult");
+ 
+  if (name == "" || email == "" || message == "") {
+
+    result.innerHTML = "Please fill in all fields before sending."
+
+  } else {
+
+    result.innerHTML = "Thank you " + name + ", your message has been received.";
+
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+  }
+}
