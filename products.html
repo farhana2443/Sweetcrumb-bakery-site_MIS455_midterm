@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Name: Farhana, ID: 2312079 -->
+
+<div class="header">
+  <div class="logo">Sweet Crumb Bakery</div>
+  <div class="tagline">Fresh from our oven, straight to your heart</div>
+</div>
+
+<div class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Our Delicious Menu</h2>
+  <p>Browse our range of freshly baked goods, made every morning in small batches. </p>
+  <p>All our products are made with locally sourced flour, real butter and no artificial preservatives, so you can taste the difference in every single bite.</p>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="image5.png" alt="">
+      <div class="product-info">
+        <h3>Classic Sourdough</h3>
+        <p>A crusty, tangy loaf made with our 5-year-old starter culture.</p>
+        <div class="price">Tk 250</div>
+        <button class="btn" onclick="addToCart('Classic Sourdough')">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+
+      <img src="image6.png" alt="">
+      <div class="product-info">
+        <h3>Chocolate Croissant</h3>
+        <p>Buttery, flaky croissant filled with rich dark chocolate.</p>
+        <div class="price">Tk 120</div>
+        <button class="btn" onclick="addToCart('Chocolate Croissant')">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image7.png" alt="">
+      <div class="product-info">
+        <h3>Custom Birthday Cake</h3>
+        <p>Personalized cake designed for your special celebration.</p>
+        <div class="price">Tk 1500</div>
+        <button class="btn" onclick="addToCart('Custom Birthday Cake')">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image8.png" alt="">
+      <div class="product-info">
+        <h3>Blueberry Muffins</h3>
+        <p>Soft, moist muffins loaded with juicy blueberries.</p>
+        <div class="price">Tk 90</div>
+        <button class="btn" onclick="addToCart('Blueberry Muffins')">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image9.png" alt="">
+      <div class="product-info">
+        <h3>Cinnamon Rolls</h3>
+        <p>Warm, gooey rolls topped with sweet cream cheese icing.</p>
+        <div class="price">Tk 150</div>
+        <button class="btn" onclick="addToCart('Cinnamon Rolls')">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image10.png" alt="">
+      <div class="product-info">
+        <h3>Assorted Cookies</h3>
+        <p>A mixed box of our best-selling butter and oatmeal cookies.</p>
+        <div class="price">Tk 200</div>
+        <button class="btn" onclick="addToCart('Assorted Cookies')">Add to Cart</button>
+      </div>
+    </div>
+
+  </div>
+
+  <p id="cartMsg" class="center-text"></p>
+
+</div>
+
+<div class="footer">
+
+  <p>Copyright 2026 Sweet Crumb Bakery. All rights reserved.</p>
+  <div>
+    <a href="index.html">Home</a> |
+    <a href="products.html">Products</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
