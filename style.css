@@ -118,3 +118,106 @@ a {
 .section {
   padding: 40px;
 }
+.section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+ 
+.section p {
+  margin-bottom: 15px;
+}
+.features {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.feature-card {
+  background-color: #ffffff;
+  padding: 20px;
+  flex: 1 1 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+.feature-card img {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.counter-box {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px;
+  max-width: 350px;
+  margin: 20px auto 0 auto;
+  border-radius: 5px;
+}
+.counter-number {
+  font-size: 1.8rem;
+  color: #6B4226;
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3fr, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+ 
+.product-card {
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+ 
+.product-card img {
+  height: 160px;
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.product-info {
+  padding: 15px;
+}
+
+.price {
+  color: #E8A33D;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+ 
+.contact-form, .contact-info {
+  flex: 1px 1px 350px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+}
+ 
+.contact-info img {
+  margin-bottom: 15px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.form-result-text {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #6B4226;
+}
+ 
